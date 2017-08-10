@@ -1,0 +1,115 @@
+body{
+	
+	background-color: #00264d;
+	color : white;
+	padding : 0px 20px 20px 20px;
+	font-size : 17px;
+}
+.header {
+
+  /* IE 8 and other archeological specimens*/
+  padding: 4% 0%;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  /* IE 5-7 */
+  filter: alpha(opacity=80);
+    
+    /*rest of the world*/
+    position: relative;
+    padding:12vh 0vh;
+    background-color: rgba(0,0,0,0.75);
+    background-color: #000000\9;
+    -webkit-transition: padding 500ms ease-in;
+    transition: padding 500ms ease-in;
+    text-align : center;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-right: -7px;
+    font: 70px Calisto MT;
+    color: white;
+     
+    
+  }
+  .header:before {
+
+    content: '';
+    background-image: url("/assests/logo.jpg");
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-repeat: repeat\9;
+    background-size: 100%;
+    background-position: 30%;
+    width : 100%;
+    
+}
+
+
+.list{
+	display : inline-block;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 20px;
+	
+}
+
+.outer-list{
+	padding :0px;
+	color : white;
+	background-color : #00264d;
+	margin : 0px;
+	margin-right: -7px;
+	margin-left: -10px;
+}
+
+a{
+  color : white;
+  font-weight: bold;
+  text-decoration: none !important;
+  padding: 15px;
+  display: inline-block;
+}
+
+
+.active{
+	background-color: white;
+	text-decoration: none !important;
+	color : #00264d ;
+}
+
+.btn-wrapper{
+	text-align : center;	
+}
+
+.btn-text{
+	font-size : 20px;
+	margin-left : 20px;
+	margin-right: 20px;
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.ques-text{
+	padding: 10px;
+	display: inline-block;
+	font-size: 20px
+	
+}
+
+.row-content{
+	margin-left : 20px;
+}
+
+.display-rating{
+	padding-left : 63px;
+}
+
